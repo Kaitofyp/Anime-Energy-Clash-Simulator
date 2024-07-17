@@ -1,0 +1,66 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+
+local window = DrRayLibrary:Load("Kaito Hub", "Default")
+
+local tab = DrRayLibrary.newTab("Inf Wins", "ImageIdHere")
+
+tab.newButton("Lvl 1 Boss", "Click me!", function()
+    
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPKEnd"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Lvl 2 Boss", "Click me!", function()
+    
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPKEnd"):FireServer(unpack(args))
+
+end)
+
+tab.newButton(Lvl 3 Boss", "Click me!", function()
+    
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPKEnd"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Lvl 4 Boss", "Click me!", function()
+    
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPKEnd"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Lvl 5 Boss", "Click me!", function()
+    
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPKEnd"):FireServer(unpack(args))
+
+end)
+
+tab.newButton("Lvl 6 Boss ", "Click me!", function()
+    
+local args = {
+    [1] = true
+}
+
+game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPKEnd"):FireServer(unpack(args))
+
+
+end)
